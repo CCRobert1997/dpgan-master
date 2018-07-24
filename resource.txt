@@ -1,0 +1,20 @@
+/Users/chen/Desktop/dpgan-master/src/dp/dp_mnist.py
+--/Users/chen/Desktop/dpgan-master/dp/train.py  
+----/Users/chen/Desktop/dpgan-master/dp/per_example_flow.py  
+------/Users/chen/Desktop/dpgan-master/dp/per_example_forward.py
+----/Users/chen/Desktop/dpgan-master/utils/data_utils.py
+--/Users/chen/Desktop/dpgan-master/models/gans     generator_forward discriminator_forward
+----/Users/chen/Desktop/dpgan-master/utils/ops.py   add noise
+--/Users/chen/Desktop/dpgan-master/utils/accounting.py  GaussianMomentsAccountant _differential_moments get_privacy_spent
+--/Users/chen/Desktop/dpgan-master/utils/data_utils.py
+--/Users/chen/Desktop/dpgan-master/utils/parsers.py
+--/Users/chen/Desktop/dpgan-master/utils/clippers.py              clippers
+----/Users/chen/Desktop/dpgan-master/dp/clippers/grouped.py       grouped clipper
+------/Users/chen/Desktop/dpgan-master/dp/clippers/base.py
+----/Users/chen/Desktop/dpgan-master/dp/clippers/basic.py
+------/Users/chen/Desktop/dpgan-master/dp/clippers/base.py
+----/Users/chen/Desktop/dpgan-master/dp/clippers/bounds.py        bounds for clipper
+----/Users/chen/Desktop/dpgan-master/dp/clippers/autogroup.py
+----/Users/chen/Desktop/dpgan-master/dp/samplers/sampler.py
+--/Users/chen/Desktop/dpgan-master/utils/schedulers.py
+--/Users/chen/Desktop/dpgan-master/dp/supervisors/basic_mnist.py
